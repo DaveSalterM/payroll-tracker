@@ -9,7 +9,7 @@ Navigate to the link below. Click "Add Employees" and the website will promt you
 
 https://davesalterm.github.io/payroll-tracker/
 
-![](assets/images/screenshot.png)
+![](Assets/screenshot.png)
 
 
 ## License
