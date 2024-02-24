@@ -1,6 +1,7 @@
 // Get a reference to the #add-employees-btn element
 const addEmployeesBtn = document.querySelector('#add-employees-btn');
 
+// Collect employee data
 const collectEmployees = function() {
 
   let array1= []
@@ -43,12 +44,27 @@ const collectEmployees = function() {
   return array1
 }
 
+// Unable to get past this point, the rest of the code is starter + commented out attempts that I would like to keep to fix at a later point.
+
+
+
+
+// let avgSalary = Array.toString()
+
+// console.log(avgSalary)
+
+// for (let i = 0; i < n; i++) {
+//   // Access and store elements here
+// }
+
+
 // Display the average salary
 const displayAverageSalary = function(employeesArray) {
   // TODO: Calculate and display the average salary
 
-  
+  // salaryArray = (document.querySelector("body > div > div > div.card-body > table > thead > tr > th:nth-child(3)"))
 
+  // console.log(salaryArray)
   
 
   
