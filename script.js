@@ -1,57 +1,60 @@
 // Get a reference to the #add-employees-btn element
 const addEmployeesBtn = document.querySelector('#add-employees-btn');
 
-
-// let again = true
-
 const collectEmployees = function() {
-  // TODO: Get user input to create and return an array of employee objects
-  // TODO: set up an array of employees
 
-let array1= []
+  let array1= []
 
-while(true){
+  while(true){
 
-  const fName = prompt("Please enter first name")
-  const lName = prompt("Please enter last name")
-  let money
-  while (true){
-  money = prompt("Please enter salary")
-  if (isNaN(money)){
-  alert(`Not a number`) 
-}
-else{
-  break
-}
-  }
+    const fName = prompt("Please enter first name")
+    const lName = prompt("Please enter last name")
 
+    let money
+
+      while (true){
+      money = prompt("Please enter salary")
+      if (isNaN(money)){
+      alert(`Not a number`) 
+    }
+
+    else{
+      break
+        }
+      }
+
+    let employeeData = { 
+      firstName: fName,
+      lastName: lName,
+      salary: money
+    }
+
+    array1.push(employeeData)
+
+      if (confirm("Add another employee?")){
+        }else{
+          break
+      }
+
+    console.log(employeeData)
   
- 
-  let employeeData = { 
-    firstName: fName,
-    lastName: lName,
-    salary: money
-  }
-  array1.push(employeeData)
-
-  if (confirm("Add another employee?")){}
-  else{
-    break
   }
 
-  
-
-  console.log(employeeData)
- 
-}
-
-return array1
-
+  return array1
 }
 
 // Display the average salary
 const displayAverageSalary = function(employeesArray) {
   // TODO: Calculate and display the average salary
+
+  
+
+  
+
+  
+
+  
+
 
   // TODO: sum up all employee salaries
   // TODO: divide total by number of employees
